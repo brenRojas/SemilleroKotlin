@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Demo GPS Writer</string>
+    <string name="title_activity_seguimiento">SeguimientoActivity</string>
+</resources>

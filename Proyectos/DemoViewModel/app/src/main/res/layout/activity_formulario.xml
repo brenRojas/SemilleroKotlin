@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="modelo"
+            type="com.brenda.demoviewmodel.viewmodels.FormularioViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".ui.FormularioActivity">
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:hint="Ingresa tu Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={modelo.nombre}"/>
+
+        <EditText
+            android:id="@+id/txtApellido"
+            android:hint="Ingresa tu Apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={modelo.apellido}"/>
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:hint="Ingresa tu Edad"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:text="@={``+modelo.edad}"/>
+
+        <Button
+            android:id="@+id/btnMostrarDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Datos"
+            android:onClick="@{()->modelo.mostrarDatos()}"/>
+
+        <TextView
+            android:id="@+id/txtDatos"
+            android:hint="Ingresa tu Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{modelo.datos}"/>
+
+        <TextView
+            android:id="@+id/txtMayorEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{modelo.mayorEdad}"/>
+    </LinearLayout>
+</layout>

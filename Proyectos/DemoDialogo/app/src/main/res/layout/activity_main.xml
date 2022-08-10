@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDisparar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disparar!"
+        android:onClick="abrirDialogo"/>
+    <Button
+        android:id="@+id/btnMultiple"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Multiple"
+        android:onClick="abrirDialogo"/>
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selección Simple"
+        android:onClick="abrirDialogo"/>
+    <Button
+        android:id="@+id/btnHora"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Picker"
+        android:onClick="abrirDialogo"/>
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Picker"
+        android:onClick="abrirDialogo"/>
+    <Button
+        android:id="@+id/btnCustom"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom"
+        android:onClick="abrirDialogo"/>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "611202283123",
+    "project_id": "demotesting-653bd",
+    "storage_bucket": "demotesting-653bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611202283123:android:15bccfbe9ce196ee599c06",
+        "android_client_info": {
+          "package_name": "com.brenda.demotesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611202283123-9annlegu54rvt97vlr3t5ol4uniro62u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwWi74Kz9PpdOXcYtOtaeBTqNGvFLMMCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611202283123-9annlegu54rvt97vlr3t5ol4uniro62u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611202283123:android:ab3e0cf4af62e7bf599c06",
+        "android_client_info": {
+          "package_name": "com.example.demonotificacionespush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611202283123-9annlegu54rvt97vlr3t5ol4uniro62u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwWi74Kz9PpdOXcYtOtaeBTqNGvFLMMCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611202283123-9annlegu54rvt97vlr3t5ol4uniro62u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

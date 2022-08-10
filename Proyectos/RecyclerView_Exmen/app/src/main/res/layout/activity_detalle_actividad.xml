@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".ui.DetalleActividad">
+
+    <ImageView
+        android:id="@+id/imgActividad"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ise_hobbies_150"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:text="Título de la Actividad"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/imgActividad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imgActividad"
+        app:layout_constraintBottom_toBottomOf="@id/txtDescipcion"/>
+
+    <TextView
+        android:id="@+id/txtDescipcion"
+        android:text="Descripción de la actividad"
+        android:textColor="@color/black"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtNombre"
+        app:layout_constraintStart_toEndOf="@id/imgActividad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imgActividad"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

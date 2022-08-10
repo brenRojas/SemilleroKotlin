@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Demo UX</string>
+    <string name="ingresa_tu_nombre">Ingresa tu Nombre</string>
+    <string name="ingresa_tu_correo">Ingresa tu Correo</string>
+    <string name="error_nombre_3_caracteres">Nombre de al menos 3 caracteres</string>
+    <string name="ingresa_tu_apellido">Ingresa tu Apellido</string>
+
+
+    <string-array name="meses_array">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+
+    </string-array>
+</resources>

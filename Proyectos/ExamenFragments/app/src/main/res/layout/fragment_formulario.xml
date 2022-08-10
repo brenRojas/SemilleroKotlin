@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.FormularioFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_bienvenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenido"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/img_person"
+            android:src="@drawable/ise_person_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_bienvenido"/>
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar_nombre"
+            app:layout_constraintStart_toEndOf="@id/img_person"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/img_person" />
+
+        <ImageView
+            android:id="@+id/img_email"
+            android:src="@drawable/ise_email_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@id/img_person"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar_correo_electronico"
+            app:layout_constraintTop_toTopOf="@id/img_email"
+            app:layout_constraintStart_toEndOf="@id/img_email"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/img_password"
+            android:src="@drawable/ise_password_40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img_email"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/ingresar_contrasena"
+            app:layout_constraintTop_toTopOf="@id/img_password"
+            app:layout_constraintStart_toEndOf="@id/img_password"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_ingresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingresar"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/checkbox"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/pink"/>
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/recordar"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

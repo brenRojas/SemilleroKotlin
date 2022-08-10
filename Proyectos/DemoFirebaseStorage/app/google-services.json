@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285000139697",
+    "project_id": "fir-firebasestorage-2921b",
+    "storage_bucket": "fir-firebasestorage-2921b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285000139697:android:2eff853aab68e7d59f3390",
+        "android_client_info": {
+          "package_name": "com.brenda.demofirebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285000139697-akav6598d0dl16l15t0av20kbrf241r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCttRC58B7ouyJYmIAz6ThbhJHgU9Kmv4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285000139697-akav6598d0dl16l15t0av20kbrf241r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

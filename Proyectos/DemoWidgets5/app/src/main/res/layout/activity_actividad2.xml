@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Actividad2">
+
+    <CheckBox
+        android:id="@+id/chkBoxUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Texto del CheckBox"
+        android:checked="true"
+        />
+
+    <Switch
+        android:id="@+id/SwitchUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/chkBoxUno"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Permiso concedido"
+        android:layout_marginTop="8dp"
+        />
+
+
+
+    <RadioGroup
+        android:id="@+id/RGUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SwitchUno">
+
+        <RadioButton
+            android:id="@+id/RBUno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 1"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/RBDos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 2"
+            />
+        <RadioButton
+            android:id="@+id/RBTres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opción 3"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_Lectura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/RGUno"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Verificar"
+        android:onClick="verificarCheck"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

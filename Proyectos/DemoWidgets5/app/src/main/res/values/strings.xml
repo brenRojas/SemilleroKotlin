@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoWidgets</string>
+    <string name="hint_Ingresa_el_nombre">Ingresa el nombre</string>
+    <string name="hint_ingresa_tu_edad">Ingresa tu edad</string>
+    <string name="hint_ingresa_tu_correo">Ingresa tu correo</string>
+    <string name="hint_ingresa_tu_telefono">Ingresa tu telefono</string>
+    <string name="hint_mostrar_datos">Mostrar datos</string>
+    <string name="dato1">Ingrese dato 1</string>
+    <string name="dato2">ingrese dato2</string>
+</resources>

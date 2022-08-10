@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userFragment">
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.brenda.reto_mvp.views.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/actionUserFragment_to_Cuenta"
+            app:destination="@id/cuentaFragment" />
+        <action
+            android:id="@+id/actionUserFragment_to_agregarCuentaDialog"
+            app:destination="@id/agregarCuentaDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/cuentaFragment"
+        android:name="com.brenda.reto_mvp.views.CuentaFragment"
+        android:label="fragment_cuenta"
+        tools:layout="@layout/fragment_cuenta" >
+        <action
+            android:id="@+id/actionCuentaFragment_toUser"
+            app:destination="@id/userFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarCuentaDialog"
+        android:name="com.brenda.reto_mvp.dialog.AgregarCuentaDialog"
+        android:label="AgregarCuentaDialog" >
+        <action
+            android:id="@+id/actionAgregarCuentaDialog_to_userFragment"
+            app:destination="@id/userFragment" />
+    </fragment>
+</navigation>

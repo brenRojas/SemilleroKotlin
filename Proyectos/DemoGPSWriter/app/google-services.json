@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802853579048",
+    "project_id": "fir-gps-writer-29949",
+    "storage_bucket": "fir-gps-writer-29949.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802853579048:android:7af609ed40a38526c6881d",
+        "android_client_info": {
+          "package_name": "com.brenda.demogpswriter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802853579048-s2iog9lstkeee80tmsqou7vd2kb0v569.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-k-LQzVGWdeI35tdj_yHydEtklWtkrwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802853579048-s2iog9lstkeee80tmsqou7vd2kb0v569.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

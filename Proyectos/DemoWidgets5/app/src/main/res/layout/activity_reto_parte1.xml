@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetoParte1">
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_android_150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="visible"
+        />
+
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_descarga_150"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible"
+
+        />
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No volver a Mostrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible"
+        android:checked="false"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        app:layout_constraintTop_toBottomOf="@+id/imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

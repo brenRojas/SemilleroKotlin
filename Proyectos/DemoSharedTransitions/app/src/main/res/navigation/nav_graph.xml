@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/albumFragment">
+    <fragment
+        android:id="@+id/albumFragment"
+        android:name="com.brenda.demosharedtransitions.AlbumFragment"
+        android:label="fragment_album"
+        tools:layout="@layout/fragment_album" >
+        <action
+            android:id="@+id/action_albumFragment_to_detalleAlbumFragment"
+            app:destination="@id/detalleAlbumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleAlbumFragment"
+        android:name="com.brenda.demosharedtransitions.DetalleAlbumFragment"
+        android:label="fragment_detalle_album"
+        tools:layout="@layout/fragment_detalle_album" />
+</navigation>

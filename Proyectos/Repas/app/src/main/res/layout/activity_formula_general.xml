@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".FormulaGeneral">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formula General"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/numA"
+        android:hint="Introducir A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/numB"
+        android:hint="Introducir B"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/numA"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/numC"
+        android:hint="Introducir C"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/numB"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:text="Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="calcular"/>
+
+    <TextView
+        android:id="@+id/txtResultado1"
+        android:text="Resultado x1: "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/resultado1"
+        app:layout_constraintTop_toBottomOf="@id/btnCalcular" />
+
+    <TextView
+        android:id="@+id/resultado1"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/txtResultado1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtResultado1"/>
+
+    <TextView
+        android:id="@+id/txtResultado2"
+        android:text="Resultado x2: "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/txtResultado1"
+        app:layout_constraintEnd_toStartOf="@id/resultado2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/resultado2"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/txtResultado2"
+        app:layout_constraintTop_toTopOf="@id/txtResultado2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoFragmentos</string>
+    <string name="f1">Fragment Uno</string>
+    <string name="f2">Fragment Dos</string>
+    <string name="f3">Fragment Tres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soy_el_fragment_rojo">Soy el fragment Rojo</string>
+    <string name="dialog_fire_missiles">Disparar misiles?</string>
+    <string name="fire">fire</string>
+    <string name="cancel">no disparar</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerView_planetas</string>
+    <string name="logo">Logo del Planeta</string>
+</resources>

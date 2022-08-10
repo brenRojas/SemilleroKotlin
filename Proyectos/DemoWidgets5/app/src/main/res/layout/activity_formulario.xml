@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Formulario">
+
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_Ingresa_el_nombre"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/TxtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ingresa_tu_edad"
+        android:inputType="number"
+        />
+
+
+    <EditText
+        android:id="@+id/TxtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ingresa_tu_correo"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/TxtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_ingresa_tu_telefono"
+        android:inputType="phone"
+        />
+
+    <Button
+        android:id="@+id/BtnConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_mostrar_datos"/>
+
+
+</LinearLayout>

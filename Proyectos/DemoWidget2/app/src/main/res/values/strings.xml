@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo Widget 2</string>
+    <string name="btn_text_anterior">Anterior</string>
+    <string name="btn_text_siguiente">Siguiente</string>
+</resources>

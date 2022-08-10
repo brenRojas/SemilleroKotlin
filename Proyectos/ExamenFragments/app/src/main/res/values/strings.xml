@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenFragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingresar_correo_electronico">Ingresar Correo Electrónico</string>
+    <string name="ingresar_nombre">Ingresar Nombre</string>
+    <string name="ingresar_contrasena">Ingresar Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recordar">Recordar sesión</string>
+    <string name="bienvenido">Bienvenido</string>
+</resources>

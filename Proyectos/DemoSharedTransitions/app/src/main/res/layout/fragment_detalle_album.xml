@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetalleAlbumFragment">
+
+    <ImageView
+        android:id="@+id/imgGroup"
+        android:src="@drawable/greenday"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgAlbum"
+        android:src="@drawable/greenday_album"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="zoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgGroup"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dookie"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/imgAlbum"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imgGroup"/>
+
+    <TextView
+        android:id="@+id/descripcion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        android:text="Lorem Ipsum es simplemente el texto de relleno de las
+        imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno
+        estándar de las industrias desde el año 1500, cuando un impresor
+        (N. del T. persona que se dedica a la imprenta) desconocido usó una
+        galería de textos y los mezcló de tal manera que logró hacer un libro
+        de textos especimen. No sólo sobrevivió 500 años, sino que tambien
+        ingresó como texto de relleno en documentos electrónicos, quedando
+        esencialmente igual al original. Fue popularizado en los 60s con la
+        creación de las hojas , las cuales contenian pasajes de Lorem Ipsum,
+        y más recientemente con software de autoedición, como por ejemplo
+        Aldus PageMaker, el cual incluye versiones de Lorem Ipsum."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgAlbum"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

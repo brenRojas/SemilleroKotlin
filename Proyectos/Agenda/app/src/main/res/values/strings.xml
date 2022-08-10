@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="dialog_eliminar">¿Desea eliminar?</string>
+    <string name="delete_true">Si</string>
+    <string name="delete_false">No</string>
+    <string name="dialog_call">¿Desea llamar al contacto?</string>
+</resources>

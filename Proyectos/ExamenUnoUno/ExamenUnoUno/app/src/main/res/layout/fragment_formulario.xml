@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FormularioFragment"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu correo"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu password"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chkSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mantener sesión iniciada?"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:text="Iniciar"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

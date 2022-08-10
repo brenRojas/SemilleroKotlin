@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imgContacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ise_person_100"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/btnLlamar"/>
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:text="Brenda Rojas"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/imgContacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imgContacto" />
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:text="2215978529"
+        app:layout_constraintStart_toEndOf="@id/imgContacto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtNombre"/>
+
+    <Button
+        android:id="@+id/btnLlamar"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Llamar"
+        android:onClick="abrirDialogo"
+        app:layout_constraintStart_toEndOf="@id/imgContacto"
+        app:layout_constraintTop_toBottomOf="@id/txtTelefono" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:onClick="abrirDialogo"
+        app:layout_constraintStart_toEndOf="@id/btnLlamar"
+        app:layout_constraintTop_toBottomOf="@id/txtTelefono"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
