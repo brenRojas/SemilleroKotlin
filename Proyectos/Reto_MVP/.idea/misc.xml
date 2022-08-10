@@ -13,6 +13,11 @@
         <entry key="..\:/GS_Kotlin/AndroidStudio_Labs/Reto_MVP/app/src/main/res/layout/fragment_recycler.xml" value="0.16757246376811594" />
         <entry key="..\:/GS_Kotlin/AndroidStudio_Labs/Reto_MVP/app/src/main/res/layout/fragment_user.xml" value="0.2" />
         <entry key="..\:/GS_Kotlin/AndroidStudio_Labs/Reto_MVP/app/src/main/res/layout/user_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/agregar_cuenta.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_cuenta.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/user_item.xml" value="0.19610507246376813" />
       </map>
     </option>
   </component>
